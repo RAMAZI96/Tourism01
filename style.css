@@ -1,0 +1,646 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(images.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.menu
+{
+background: rgb(7, 236, 236);
+text-align: center;
+}
+.menu ul
+{
+display:inline-flex;
+list-style: none;
+color:white;
+
+}
+
+.menu ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.is, .menu ul li:hover
+{
+    background-color: rgb(16, 211, 97);
+    border-radius: 5px;
+}
+.menu .fa
+{
+    margin-right: 8px;
+}
+.menu-1
+{
+    display: none;
+}
+.menu ul li:hover .menu-1
+{
+    display: block;
+    position: absolute;
+    background-color:rgb(11, 138, 78);
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.menu ul li:hover .menu-1 ul
+{
+    display: block;
+    margin:2px;
+}
+.menu ul li:hover .menu-1 ul li
+{
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu ul li:hover .menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu ul li:hover .menu-1 ul li a:hover
+{
+    color: aqua;
+}
+.fa-angle-right
+{
+    float: right;
+}
+.menu-2
+{
+    display: none;
+}
+.right:hover .menu-2
+{
+    position:absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 100px;
+    background: rgb(10, 190, 100);
+}
+
+
+.text
+{
+    position: absolute;
+    margin-top: 150px;
+
+    font-size: 50px;
+    margin-left: 50px;
+    color: rgb(26, 6, 73);
+
+}
+
+
+@media (max-width: 500px) and (min-width:300px){
+    .text{
+        font-size:30px;
+        margin-top: -200px;
+        margin-left: 180px;
+    }
+    .menu ul{
+        display:block;   
+    }
+    .menu{
+       background:none; 
+    }
+    .menu ul li:hover .menu-1{
+        margin-left: 80px;
+    }
+    .buttonn{
+position:absolute;
+        margin-top: 370px;
+        margin-left: -150px;
+    }
+
+.b{
+    margin-top: 380px;
+    margin-left: -890px;
+          }
+ 
+        .k{
+            margin-top: 380px;
+            margin-left: -890px;
+        }
+        .ku{
+            margin-top: 380px;
+            margin-left: -890px;
+        }
+        .ba{
+            margin-top: 380px;
+            margin-left: -890px;
+        }
+        .r{
+            margin-top: 380px;
+    margin-left: -890px;
+        }
+        .m{
+            margin-top: 380px;
+    margin-left: -890px;
+        }
+        .mi{
+            margin-top: 380px;
+    margin-left: -890px;
+        }
+        .t{
+            margin-top: 380px;
+            margin-left: -890px;
+        }
+        .e{
+            margin-top: 380px;
+            margin-left: -890px;
+        }
+              
+}
+   @media (max-width: 900px) and (min-width: 501px){
+
+    .text{
+        font-size:40px;
+        margin-top: -200px;
+        margin-left: 180px;
+    }
+    .menu ul{
+        display:block;   
+    }
+    .menu{
+       background:none; 
+    }
+    .menu ul li:hover .menu-1{
+        margin-left: 80px;
+    }
+    .buttonn{
+        position:absolute;
+               margin-top: 320px;
+                margin-left: -40px;
+            }
+    .b{
+        margin-top: 325px;
+      margin-left: -780px;
+     }
+            .k{
+                margin-top: 325px;
+      margin-left: -780px;
+            }
+            .ku{
+                margin-top: 325px;
+      margin-left: -780px;
+            }
+            .ba{
+                margin-top: 325px;
+      margin-left: -780px;
+            }
+            .r{
+                margin-top: 325px;
+                margin-left: -780px;
+            }
+            .m{
+                margin-top: 325px;
+                margin-left: -780px;
+            }
+            .mi{
+                margin-top: 325px;
+                margin-left: -780px;
+            }
+            .t{
+                margin-top: 325px;
+      margin-left: -780px;
+            }
+            .e{
+                margin-top: 325px;
+                margin-left: -780px;
+            }
+                    
+   
+}
+@media (max-width: 1274px) and (min-width: 901px){
+
+.menu ul{
+margin-left: -320px;
+
+}
+.buttonn{
+  margin-left: -300px;
+   }
+ 
+.text{
+    font-size: 40px;
+    margin-top: -3px;
+    margin-left: 220px;
+}
+.b{
+    margin-left:-400px;
+}
+.k{
+    margin-left:-400px;
+}
+.ku{
+    margin-left:-400px;
+}
+.ba{
+    margin-left:-400px;
+}
+.r{
+    margin-left:-400px;
+}
+.m{
+    margin-left:-400px;
+}
+.mi{
+    margin-left:-400px;
+}
+.t{
+    margin-left:-400px;
+}
+.e{
+    margin-left:-400px;
+}
+}
+.hidden{
+    display:none;
+}
+
+
+.iss{
+    position:absolute;
+    margin-left: 283px;
+    margin-top: -48px;
+}
+
+
+
+.yutiBatumi{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.yutiKobuleti{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.yutiKutaisi{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.yutiSataflia{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.yutiMadrid{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.else{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+   text-align: 20px;
+   
+}
+.textt{
+    margin-top: 15px;
+}
+.xelse{
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -40px;
+    cursor: pointer;
+    animation-name: xelse;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xelse{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.xbatumi{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xbatumi;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xbatumi{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+
+.xkobuleti{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xkobuleti;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xkobuleti{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.xkutaisi{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xkutaisi;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xkutaisi{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 21px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+
+.xsataflia{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xsataflia;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xsataflia{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.xmadrid{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xmadrid;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xmadrid{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.xbarcelona{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xbarcelona;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xbarcelona{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 21px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.yutiBarcelona{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+
+   }
+.xmilan{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xmilan;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xmilan{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.yutiMilan{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.xrome{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xrome;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xrome{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.yutiRome{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.xtbilisi{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -49px;
+    cursor: pointer;
+    animation-name: xtbilisi;
+    animation-duration:2s;
+    animation-iteration-count: infinite; 
+}
+@keyframes xtbilisi{
+    0%{
+        color: rgb(88, 14, 224);
+        font-size: 18px;
+       
+    }
+    50%{
+        color: rgb(41, 14, 197);
+        font-size: 20px;
+    }
+   100%
+    {
+        color: rgb(57, 11, 221);
+        font-size: 15px;
+    }
+    }
+.yutiTbilisi{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    border: blue solid 1px;
+margin-left: 1000px;
+   background-color: rgb(43, 165, 155);
+   border-radius: 40px;
+}
+.button{
+    position:absolute;
+   
+    padding: 5px;
+    
+    
+    margin-left: 490px;
+    margin-top:-48px;  
+
+}
